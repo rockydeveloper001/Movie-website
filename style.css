@@ -8,7 +8,6 @@ body {
 header {
     background-color: #333;
     color: #fff;
-    height:100px;
 }
 
 .header-content {
@@ -21,7 +20,7 @@ header {
 }
 
 .header-content img.logo {
-    max-height: 100px;
+    max-height: 25px;
     height: auto;
     width: auto;
 }
