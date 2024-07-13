@@ -20,8 +20,9 @@ header {
 }
 
 .header-content img.logo {
-    height: 100%;
-    width: 80%;
+    max-height:100px;
+    height: 100px;
+    width: 80px;
 }
 
 nav ul {
