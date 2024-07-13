@@ -35,7 +35,7 @@ nav {
 }
 
 nav img.logo {
-    max-height: 2px; /* Adjust this value as needed */
+    max-height: 50px; /* Adjust this value as needed */
     max-width: auto;  /* Maintain aspect ratio */
 }
 
