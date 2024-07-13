@@ -27,6 +27,13 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Updated */
+    padding: 0 1rem; /* Add some padding */
+}
+
 nav img.logo {
     max-height: 2px; /* Adjust this value as needed */
     max-width: auto;  /* Maintain aspect ratio */
