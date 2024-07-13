@@ -28,7 +28,8 @@ nav ul li a {
 }
 
 nav img.logo {
-    height: 10px;
+    max-height: 2px; /* Adjust this value as needed */
+    max-width: auto;  /* Maintain aspect ratio */
 }
 
 main {
