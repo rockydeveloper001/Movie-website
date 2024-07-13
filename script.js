@@ -9,52 +9,6 @@ document.addEventListener('DOMContentLoaded', function() {
         // Add more movies as needed
     ];
 
-    // Function to create a movie placeholder
-    function createMoviePlaceholder() {
-        const col = document.createElement('div');
-        col.className = 'col-md-4 mb-4';
-
-        const card = document.createElement('div');
-        card.className = 'card';
-
-        const img = document.createElement('div');
-        img.className = 'card-img-top placeholder';
-        img.style.height = '200px';
-
-        const cardBody = document.createElement('div');
-        cardBody.className = 'card-body';
-
-        const cardTitle = document.createElement('h5');
-        cardTitle.className = 'card-title placeholder-glow';
-        cardTitle.innerHTML = `<span class="placeholder col-6"></span>`;
-
-        const cardText = document.createElement('p');
-        cardText.className = 'card-text placeholder-glow';
-        cardText.innerHTML = `<span class="placeholder col-7"></span>`;
-
-        const downloadButton = document.createElement('a');
-        downloadButton.className = 'btn btn-primary disabled placeholder col-4';
-        downloadButton.href = '#';
-        downloadButton.textContent = 'Loading...';
-
-        cardBody.appendChild(cardTitle);
-        cardBody.appendChild(cardText);
-        cardBody.appendChild(downloadButton);
-
-        card.appendChild(img);
-        card.appendChild(cardBody);
-
-        col.appendChild(card);
-
-        return col;
-    }
-
-    // Add placeholders to the movie list
-    movies.forEach(() => {
-        const placeholder = createMoviePlaceholder();
-        movieList.appendChild(placeholder);
-    });
-
     // Function to create a movie card with actual content
     function createMovieCard(movie) {
         const col = document.createElement('div');
