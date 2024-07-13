@@ -20,8 +20,8 @@ header {
 }
 
 .header-content img.logo {
-    max-height:50px;
-    margin:10px;
+    max-height:45px;
+    margin:15px;
     height: auto;
     width: auto;
 }
