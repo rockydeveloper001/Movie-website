@@ -31,18 +31,9 @@ main {
     padding: 2rem;
 }
 
-.movieList {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .movie {
     background-color: #fff;
     border: 1px solid #ddd;
-    margin: 1rem;
-    padding: 1rem;
-    width: calc(33% - 2rem);
-    box-sizing: border-box;
     text-align: center;
 }
 
