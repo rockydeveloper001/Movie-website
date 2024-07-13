@@ -31,7 +31,7 @@ main {
     padding: 2rem;
 }
 
-.movie-list {
+.card {
     display: flex;
     flex-wrap: wrap;
 }
