@@ -20,9 +20,10 @@ header {
 }
 
 .header-content img.logo {
-    max-height: 25px;
+    max-height: 50px;
     height: auto;
     width: auto;
+    margin-left:25; 
 }
 
 nav ul {
