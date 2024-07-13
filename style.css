@@ -14,7 +14,7 @@ header {
 .header-content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: right;
     padding: 0 1rem;
 }
 
@@ -23,7 +23,7 @@ header {
 }
 
 .header-content img.logo {
-    max-height: 50px;
+    max-height: 200px;
     height: auto;
     width: auto;
 }
