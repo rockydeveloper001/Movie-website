@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { title: 'Movie 6', image: 'https://via.placeholder.com/150', link: '#' },
     ];
 
-    const card = document.querySelector('.card');
+    const movieList = document.querySelector('.movieList');
 
     movies.forEach(movie => {
         const movieDiv = document.createElement('div');
@@ -20,6 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
             <a href="${movie.link}" download>Download</a>
         `;
         
-        card.appendChild(movieDiv);
+        movieList.appendChild(movieDiv);
     });
 });
