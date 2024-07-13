@@ -31,11 +31,10 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between; /* Updated */
-    padding: 0 1rem; /* Add some padding */
 }
 
 nav img.logo {
-    max-height: 50px; /* Adjust this value as needed */
+    max-height: 100px; /* Adjust this value as needed */
     max-width: auto;  /* Maintain aspect ratio */
 }
 
