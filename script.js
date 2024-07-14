@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     ];
 
     // Function to create a movie card with actual content
-    function createMovieCard(movie) {
+    function createMoviePlaceholder(movie) {
         const col = document.createElement('div');
         col.className = 'col-md-4 mb-4';
 
