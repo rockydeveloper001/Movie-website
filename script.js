@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const cardText = document.createElement('p');
         cardText.className = 'card-text placeholder-glow';
-        cardText.innerHTML = `<span class="placeholder col-7"></span>`;
+        cardText.innerHTML = `<span class="placeholder col-12"></span>`;
 
         const downloadButton = document.createElement('a');
         downloadButton.className = 'btn btn-primary disabled placeholder mt-2 ';
