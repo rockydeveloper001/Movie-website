@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const img = document.createElement('div');
         img.className = 'card-img-top placeholder-glow';
+        img.src = '...'
         img.style.height = '200px';
 
         const cardBody = document.createElement('div');
