@@ -71,14 +71,6 @@ document.addEventListener('DOMContentLoaded', function() {
         const cardBody = document.createElement('div');
         cardBody.className = 'card-body';
 
-        const cardTitle = document.createElement('h3');
-        cardTitle.className = 'h3';
-        cardTitle.textContent = movie.title;
-
-        const cardRate = document.createElement('span')
-        cardRate.className = 'card-rate badge text-bg-success';
-        cardRate.textContent = movie.rate;
-
         const cardText = document.createElement('small');
         cardText.className = 'h5';
         cardText.textContent = movie.description;
@@ -87,6 +79,19 @@ document.addEventListener('DOMContentLoaded', function() {
         downloadButton.className = 'btn btn-primary';
         downloadButton.href = '#';
         downloadButton.textContent = 'Download';
+
+        const cardHead = document.createElement('div');
+        card.className = 'card-head';
+        
+        const cardTitle = document.createElement('h3');
+        cardTitle.className = 'h3';
+        cardTitle.textContent = movie.title;
+
+        const cardRate = document.createElement('span');
+        cardRate.className = 'card-rate badge text-bg-success';
+        cardRate.textContent = movie.rate;
+
+        
 
         cardBody.appendChild(cardTitle);
         cardBody.appendChild(cardText);
@@ -110,5 +115,5 @@ document.addEventListener('DOMContentLoaded', function() {
                     movieList.appendChild(movieCard);
                 });
         
-    }, 5000); // 2-second delay to simulate loading
+    }, 2500); // 2-second delay to simulate loading
 });
