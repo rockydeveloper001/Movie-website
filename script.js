@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
         cardText.innerHTML = `<span class="placeholder col-7"></span>`;
 
         const downloadButton = document.createElement('a');
-        downloadButton.className = 'btn btn-primary disabled placeholder mt-2 col-6';
+        downloadButton.className = 'btn btn-primary disabled placeholder mt-2 ';
         downloadButton.href = '#';
 
         cardBody.appendChild(cardTitle);
@@ -82,11 +82,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
         const cardText = document.createElement('small');
-        cardText.className = 'h5';
+        cardText.className = 'h5 flex-grow-1';
         cardText.textContent = movie.description;
 
         const downloadButton = document.createElement('a');
-        downloadButton.className = 'btn btn-primary col-6 mt-2';
+        downloadButton.className = 'btn btn-primary mt-2';
         downloadButton.href = '#';
         downloadButton.textContent = 'Download';
         
