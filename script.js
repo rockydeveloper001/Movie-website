@@ -35,7 +35,6 @@ document.addEventListener('DOMContentLoaded', function() {
         const downloadButton = document.createElement('a');
         downloadButton.className = 'btn btn-primary disabled';
         downloadButton.href = '#';
-        downloadButton.textContent = 'Loading...';
 
         cardBody.appendChild(cardTitle);
         cardBody.appendChild(cardText);
@@ -76,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function() {
         cardTitle.textContent = movie.title;
 
         const cardText = document.createElement('p');
-        cardText.className = 'card-text';
+        cardText.className = 'card-text text-body-secondary';
         cardText.textContent = movie.description;
 
         const downloadButton = document.createElement('a');
