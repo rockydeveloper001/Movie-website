@@ -76,8 +76,9 @@ document.addEventListener('DOMContentLoaded', function() {
         cardTitle.textContent = movie.title;
 
         const cardRate = document.createElement('span');
-        cardRate.className = 'card-rate badge position-absolute top-0 start-0 text-bg-success';
+        cardRate.className = 'card-rate badge position-absolute top-0 start-0 d-flex align-items-center text-bg-success';
         cardRate.textContent = movie.rate;
+        cardRate.innerHTML = `${movie.rate} <i class="bi bi-star-fill ms-1"></i>`;
 
 
         const cardText = document.createElement('small');
