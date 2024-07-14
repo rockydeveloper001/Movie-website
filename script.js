@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function() {
         cardTitle.textContent = movie.title;
 
         const cardText = document.createElement('p.small');
-        cardText.className = 'card-text text-body-secondary';
+        cardText.className = 'text-body-secondary';
         cardText.textContent = movie.description;
 
         const downloadButton = document.createElement('a');
