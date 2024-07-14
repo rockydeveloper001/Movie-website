@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function() {
         cardBody.className = 'card-body';
 
         const cardTitle = document.createElement('h5');
-        cardTitle.className = 'card-title';
+        cardTitle.className = 'h5';
         cardTitle.textContent = movie.title;
 
         const cardText = document.createElement('small');
