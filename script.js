@@ -84,6 +84,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const cardText = document.createElement('small');
         cardText.className = 'h5';
         cardText.textContent = movie.description;
+        cardRate.innerHTML = `<br>'
 
         const downloadButton = document.createElement('a');
         downloadButton.className = 'btn btn-primary';
