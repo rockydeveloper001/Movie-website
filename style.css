@@ -45,6 +45,10 @@ nav {
     display: flex;
 }
 
+.card-body {
+    position: relative;
+}
+
 .card-rate {
     font-size: 0.3rem;
     align-items: center;
