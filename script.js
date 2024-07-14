@@ -91,6 +91,7 @@ document.addEventListener('DOMContentLoaded', function() {
         cardBody.appendChild(cardTitle);
         cardBody.appendChild(cardText);
         cardBody.appendChild(downloadButton);
+        cardBody.appendChild(cardRate);
 
         card.appendChild(img);
         card.appendChild(cardBody);
