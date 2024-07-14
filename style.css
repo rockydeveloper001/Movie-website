@@ -46,9 +46,9 @@ nav {
 }
 
 .card-rate {
-    font-size: 0.3rem;
+    font-size: 10px;
     align-items: center;
-    margin: 0 1rem;
+    margin: 5px;
 }
 
 main {
