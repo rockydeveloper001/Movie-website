@@ -46,9 +46,7 @@ nav {
 }
 
 .card-rate {
-    width: .5rem;
-    height: auto;
-    position: top-left;
+    font-size: 0.5rem;
 }
 
 main {
