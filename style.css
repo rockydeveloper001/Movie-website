@@ -49,21 +49,6 @@ main {
     padding: 2rem;
 }
 
-.movie {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    text-align: center;
-}
-
-.movie img {
-    max-width: 100%;
-    height: auto;
-}
-
-.movie h3 {
-    margin-top: 0.5rem;
-}
-
 footer {
     background-color: #333;
     color: #fff;
