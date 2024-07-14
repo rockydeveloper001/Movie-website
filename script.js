@@ -3,9 +3,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Example array of movies
     const movies = [
-        { title: 'Movie 1', description: 'Description for movie 1' },
-        { title: 'Movie 2', description: 'Description for movie 2' },
-        { title: 'Movie 3', description: 'Description for movie 3' },
+        { title: 'Movie 1', description: 'Description for movie 1', img: '20240714_131541.jpg' },
+        { title: 'Movie 2', description: 'Description for movie 2', img: '20240714_131541.jpg' },
+        { title: 'Movie 3', description: 'Description for movie 3', img: '20240714_131541.jpg' },
         // Add more movies as needed
     ];
 
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const img = document.createElement('img');
         img.className = 'card-img-top';
-        img.src = '20240714_131541.jpg'; // Path to your actual image
+        img.src = movie.img; // Path to your actual image
         img.alt = movie.title;
 
         const cardBody = document.createElement('div');
