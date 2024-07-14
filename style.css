@@ -45,6 +45,12 @@ nav {
     display: flex;
 }
 
+.card-rate {
+    width: .5rem;
+    height: auto;
+    position: top-left;
+}
+
 main {
     padding: 2rem;
 }
