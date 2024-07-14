@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
         card.className = 'card';
 
         const img = document.createElement('div');
-        img.className = 'card-img-top placeholder';
+        img.className = 'card-img-top placeholder-glow';
         img.style.height = '200px';
 
         const cardBody = document.createElement('div');
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const downloadButton = document.createElement('a');
         downloadButton.className = 'btn btn-primary disabled';
         downloadButton.href = '#';
-        downloadButton.textContent = 'loading...';
+        downloadButton.textContent = 'Loading...';
 
         cardBody.appendChild(cardTitle);
         cardBody.appendChild(cardText);
