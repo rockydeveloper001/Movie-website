@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', function() {
         cardTitle.textContent = movie.title;
 
         const cardRate = document.createElement('span');
-        cardRate.className = 'card-rate badge position-absolute top-0 start-0 d-flex justify-content-center col-2 col-md-2 text-bg-success';
+        cardRate.className = 'card-rate badge position-absolute top-0 start-0 d-flex justify-content-center col-2 col-md-4 text-bg-success';
         cardRate.textContent = movie.rate;
         cardRate.innerHTML = `${movie.rate} <i class="bi star bi-star-fill ms-1"></i>`;
 
@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', function() {
         cardText.textContent = movie.description;
 
         const downloadButton = document.createElement('a');
-        downloadButton.className = 'btn btn-primary mt-2 col-6';
+        downloadButton.className = 'btn btn-primary mt-2 col-6 col-md-6';
         downloadButton.href = '#';
         downloadButton.textContent = 'Download';
         
