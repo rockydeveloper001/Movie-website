@@ -46,13 +46,11 @@ nav {
 }
 
 .card-rate {
-    font-size: 5px;
     align-items: center;
     margin: 7.5px;
 }
 
 .star {
-    font-size: 17px;
     position: relative;
     top: -1px;
 }
