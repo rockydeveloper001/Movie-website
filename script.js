@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
         cardText.innerHTML = `<span class="placeholder col-7"></span>`;
 
         const downloadButton = document.createElement('a');
-        downloadButton.className = 'btn btn-primary disabled';
+        downloadButton.className = 'btn btn-primary disabled placeholder col-6';
         downloadButton.href = '#';
 
         cardBody.appendChild(cardTitle);
