@@ -3,9 +3,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Example array of movies
     const movies = [
-        { title: 'Movie 1', description: 'Description for movie 1', img: '20240714_131541.jpg' },
-        { title: 'Movie 2', description: 'Description for movie 2', img: '20240714_131541.jpg' },
-        { title: 'Movie 3', description: 'Description for movie 3', img: '20240714_131541.jpg' },
+        { title: 'Movie 1', description: 'Description for movie 1', img: '20240714_131541.jpg', rate: '8.0' },
+        { title: 'Movie 2', description: 'Description for movie 2', img: '20240714_131541.jpg', rate: '8.0' },
+        { title: 'Movie 3', description: 'Description for movie 3', img: '20240714_131541.jpg', rate: '8.0' },
         // Add more movies as needed
     ];
 
@@ -74,6 +74,10 @@ document.addEventListener('DOMContentLoaded', function() {
         const cardTitle = document.createElement('h3');
         cardTitle.className = 'h3';
         cardTitle.textContent = movie.title;
+
+        const cardRate = document.createElement('span')
+        cardRate.className = 'badge text-bg-success';
+        cardRate.textContent = movie.rate;
 
         const cardText = document.createElement('small');
         cardText.className = 'h5';
