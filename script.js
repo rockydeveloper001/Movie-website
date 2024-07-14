@@ -70,8 +70,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const cardBody = document.createElement('div');
         cardBody.className = 'card-body';
 
-        const cardTitle = document.createElement('h5');
-        cardTitle.className = 'h5';
+        const cardTitle = document.createElement('h3');
+        cardTitle.className = 'h3';
         cardTitle.textContent = movie.title;
 
         const cardText = document.createElement('small');
