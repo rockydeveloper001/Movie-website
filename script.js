@@ -58,5 +58,5 @@ document.addEventListener('DOMContentLoaded', function() {
             const movieCard = createMovieCard(movie);
             movieList.appendChild(movieCard);
         });
-    }, 2000); // 2-second delay to simulate loading
+    }, 5000); // 2-second delay to simulate loading
 });
