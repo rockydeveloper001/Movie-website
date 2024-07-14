@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
         const cardText = document.createElement('small');
-        cardText.className = 'h5 flex-grow-1';
+        cardText.className = 'h5 flex-grow-1 card-text';
         cardText.textContent = movie.description;
 
         const downloadButton = document.createElement('a');
