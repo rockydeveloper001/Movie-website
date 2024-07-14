@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const img = document.createElement('img');
         img.className = 'card-img-top';
-        img.src = 'images/movie-placeholder.jpg'; // Path to your actual image
+        img.src = 'https://archive.org/embed/20240714-131541'; // Path to your actual image
         img.alt = movie.title;
 
         const cardBody = document.createElement('div');
