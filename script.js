@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const cardRate = document.createElement('p')
         cardRate.className = 'badge text-bg-success';
-        cardRate.textContent = <span class="badge text-bg-success">movie.rate</span>;
+        cardRate.textContent = movie.rate;
 
         const cardText = document.createElement('small');
         cardText.className = 'h5';
