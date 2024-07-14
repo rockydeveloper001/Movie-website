@@ -71,11 +71,11 @@ document.addEventListener('DOMContentLoaded', function() {
         const cardBody = document.createElement('div');
         cardBody.className = 'card-body';
 
-        const cardTitle = document.createElement('h5');
+        const cardTitle = document.createElement('h3');
         cardTitle.className = 'card-title';
         cardTitle.textContent = movie.title;
 
-        const cardText = document.createElement('p');
+        const cardText = document.createElement('a');
         cardText.className = 'card-text';
         cardText.textContent = movie.description;
 
