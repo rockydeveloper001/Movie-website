@@ -17,6 +17,52 @@ document.addEventListener('DOMContentLoaded', function() {
         const card = document.createElement('div');
         card.className = 'card';
 
+        const img = document.createElement('div');
+        img.className = 'card-img-top placeholder';
+        img.style.height = '200px';
+
+        const cardBody = document.createElement('div');
+        cardBody.className = 'card-body';
+
+        const cardTitle = document.createElement('h5');
+        cardTitle.className = 'card-title placeholder-glow';
+        cardTitle.innerHTML = `<span class="placeholder col-6"></span>`;
+
+        const cardText = document.createElement('p');
+        cardText.className = 'card-text placeholder-glow';
+        cardText.innerHTML = `<span class="placeholder col-7"></span>`;
+
+        const downloadButton = document.createElement('a');
+        downloadButton.className = 'btn btn-primary disabled';
+        downloadButton.href = '#';
+        downloadButton.textContent = 'loading...';
+
+        cardBody.appendChild(cardTitle);
+        cardBody.appendChild(cardText);
+        cardBody.appendChild(downloadButton);
+
+        card.appendChild(img);
+        card.appendChild(cardBody);
+
+        col.appendChild(card);
+
+        return col;
+    }
+
+    // Add placeholders to the movie list
+    movies.forEach(() => {
+        const placeholder = createMoviePlaceholder();
+        movieList.appendChild(placeholder);
+            });
+
+    // Function to create a movie card with actual content
+    function createMovieCard(movie) {
+        const col = document.createElement('div');
+        col.className = 'col-md-4 mb-4';
+
+        const card = document.createElement('div');
+        card.className = 'card';
+
         const img = document.createElement('img');
         img.className = 'card-img-top';
         img.src = 'images/movie-placeholder.jpg'; // Path to your actual image
@@ -47,16 +93,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
         col.appendChild(card);
 
-        return col;
-    }
+            return col;
+        }
 
     // Simulate loading delay and replace placeholders with actual content
     setTimeout(() => {
         movieList.innerHTML = ''; // Clear placeholders
-
+        
         movies.forEach(movie => {
-            const movieCard = createMovieCard(movie);
-            movieList.appendChild(movieCard);
-        });
+                    const movieCard = createMovieCard(movie);
+                    movieList.appendChild(movieCard);
+                });
+        
     }, 5000); // 2-second delay to simulate loading
 });
