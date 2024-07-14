@@ -51,6 +51,10 @@ nav {
     margin: 7.5px;
 }
 
+.star {
+    font-size: 4px;
+}
+
 main {
     padding: 2rem;
 }
