@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', function() {
         cardText.textContent = movie.description;
 
         const downloadButton = document.createElement('a');
-        downloadButton.className = 'btn btn-primary mt-2 col-6 col-md-6';
+        downloadButton.className = 'btn btn-primary btn-download mt-2 col-6 col-md-6';
         downloadButton.href = '#';
         downloadButton.textContent = 'Download';
         
